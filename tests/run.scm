@@ -1,4 +1,4 @@
-;;; MD2 Message Digest 2 Algorithm
+;;; Message Digest 2 (MD2) Algorithm
 ;;;
 ;;;             Tests
 
