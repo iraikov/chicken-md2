@@ -1,0 +1,7 @@
+((license "BSD")
+ (category crypt)
+ (depends message-digest)
+ (test-depends test message-digest)
+ (author "Tobias Heilig")
+ (synopsis "Message Digest 2 algorithm as defined in RFC1319"))
+

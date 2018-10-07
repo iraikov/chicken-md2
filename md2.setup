@@ -1,0 +1,8 @@
+(compile -s -O3 -d1 md2.scm -j md2)
+(compile -s -O3 -d0 md2.import.scm)
+
+(install-extension
+  'md2
+  '("md2.so" "md2.import.so")
+  '((version "1.0")))
+
