@@ -107,8 +107,15 @@ md2_transform (MD2_CTX *ctx, BYTE *data)
 
     for (j = 0; j < 18; ++j) {
 
-        for (k = 0; k < 48; ++k) {
-            t = x[k] ^= s[t];
+        for (k = 0; k < 48; k += 8) {
+            t = x[k+0] ^= s[t];
+            t = x[k+1] ^= s[t];
+            t = x[k+2] ^= s[t];
+            t = x[k+3] ^= s[t];
+            t = x[k+4] ^= s[t];
+            t = x[k+5] ^= s[t];
+            t = x[k+6] ^= s[t];
+            t = x[k+7] ^= s[t];
         }
 
         t = (t + j) & 0xff;
