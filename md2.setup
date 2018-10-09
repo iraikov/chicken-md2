@@ -4,5 +4,5 @@
 (install-extension
   'md2
   '("md2.so" "md2.import.so")
-  '((version "1.0")))
+  '((version "1.1")))
 
