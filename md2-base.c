@@ -44,10 +44,10 @@ typedef unsigned char BYTE;
 
 
 typedef struct {
-    int len;
     BYTE state[16];
     BYTE data[16];
     BYTE checksum[16];
+    int len;
 } MD2_CTX;
 
 
