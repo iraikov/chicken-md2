@@ -1,0 +1,11 @@
+((license "BSD")
+ (category crypt)
+ (dependencies message-digest)
+ (test-dependencies test message-digest)
+ (author "Tobias Heilig")
+ (maintainer "Ivan Raikov")
+ (synopsis "Message Digest 2 algorithm as defined in RFC1319")
+ (components (extension md2 (csc-options "-O3" "-d1")))
+
+ )
+

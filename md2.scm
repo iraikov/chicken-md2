@@ -41,9 +41,10 @@
         (md2-primitive)
 
 
-  (import chicken scheme foreign)
-
-  (use message-digest)
+  (import scheme (chicken base)
+          (chicken foreign)
+          srfi-1 srfi-4 srfi-13
+          message-digest)
 
 
   #>#include "md2-base.c"<#
