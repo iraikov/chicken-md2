@@ -5,7 +5,7 @@
 
 
 
-(use test message-digest md2)
+(import test message-digest md2)
 
 
 
